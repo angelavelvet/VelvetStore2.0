@@ -26,4 +26,4 @@ El proyecto está publicado en GitHub Pages:
 👉 [VelvetStore Online](https://angelavelvet.github.io/VelvetStore/)
 
 ## 📚 Autor
-Proyecto realizado por **Evangelina** como entrega final del curso de Desarrollo Web.
+Proyecto realizado por Angela Eliana Armella Mamani como entrega final del curso de Desarrollo Web.
