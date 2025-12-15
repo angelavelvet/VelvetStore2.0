@@ -4,12 +4,10 @@ body {
   padding: 0;
 }
 
-/* Scroll suave */
 html {
   scroll-behavior: smooth;
 }
 
-/* Header con logo y menú */
 header {
   background-color: #333;
   color: white;
@@ -49,14 +47,12 @@ nav a:hover {
   color: #ff9800;
 }
 
-/* Carrito */
 .carrito {
   text-align: center;
   margin: 10px;
   font-weight: bold;
 }
 
-/* Secciones con fondos distintos */
 #inicio {
   background-color: #fafafa;
   padding: 60px 20px;
@@ -108,7 +104,6 @@ nav a:hover {
   padding: 60px 20px;
 }
 
-/* Formulario */
 form {
   display: flex;
   flex-direction: column;
@@ -136,7 +131,6 @@ form button:hover {
   background-color: #ff9800;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
