@@ -52,5 +52,32 @@ function actualizarCarrito() {
   carrito.forEach(l => {
     total += l.precio * l.cantidad;
     lista.innerHTML += `
+      <li>
+        ${l.titulo} - $${l.precio} x ${l.cantidad}
+        <button onclick="eliminarProducto(${l.id})">Eliminar</button>
+      </li>
+    `;
+  });
+  document.getElementById("total").textContent = total.toFixed(2);
+}
+
+// Eliminar libro del carrito
+function eliminarProducto(id) {
+  carrito = carrito.filter(l => l.id !== id);
+  guardarCarrito();
+  actualizarCarrito();
+}
+
+// Validar formulario
+document.getElementById("formulario").addEventListener("submit", e => {
+  const email = e.target.email.value;
+  if (!email.includes("@")) {
+    e.preventDefault();
+    alert("Por favor ingresa un correo válido.");
+  } else {
+    alert("Formulario enviado correctamente ✅");
+  }
+});
+
 
 
