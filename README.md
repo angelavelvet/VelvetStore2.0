@@ -23,7 +23,7 @@ El objetivo es crear una tienda online dinámica e interactiva que combine todos
 
 ## 🚀 Deploy
 El proyecto está publicado en GitHub Pages:  
-👉 [VelvetStore Online](https://angelavelvet.github.io/VelvetStore/)
+👉 [VelvetStore Online] https://angelavelvet.github.io/VelvetStore2.0/
 
 ## 📚 Autor
 Proyecto realizado por Angela Eliana Armella Mamani como entrega final del curso de Desarrollo Web.
