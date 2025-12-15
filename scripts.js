@@ -69,5 +69,7 @@ document.getElementById("formulario").addEventListener("submit", e => {
   if (!email.includes("@")) {
     e.preventDefault();
     alert("Por favor ingresa un correo válido.");
+  } else {
+    alert("Formulario enviado correctamente ✅");
   }
 });
